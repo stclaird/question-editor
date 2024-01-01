@@ -1,0 +1,19 @@
+{
+    "text" : "What was the name of the individual who assasinated ArchDuke Franz Ferdinand in 1914?",
+    "type" : "multichoice",
+    "category" : "history",
+    "subcategory" : "WW1",
+    "dateadded" : "2023-11",
+    "certification" : "n/a",
+    "answersupport" : "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand",
+    "answers" : [
+        {
+            "text" : "Gavrilo Princip.",
+            "iscorrect" : true
+        },
+        {
+            "text" : "Nikola Pasic.",
+            "iscorrect" : false
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "type": "object",
+    "properties": {
+        "text": {
+            "type": "string",
+            "description": "user name"
+        },
+        "type": {
+            "type": "string"
+        },
+        "subcategory": {
+            "type": "string"
+        },
+        "category": {
+            "type": "string"
+        },
+        "dateadded": {
+            "type": "string"
+        },
+        "certification": {
+            "type": "string"
+        },
+        "answersupport": {
+            "type": "string"
+        },
+        "answers": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "text",
+        "type",
+        "subcategory",
+        "category"
+    ]
+}

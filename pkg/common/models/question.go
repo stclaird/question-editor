@@ -6,6 +6,8 @@ type Question struct {
 	Category    string `json:"category"`
 	Subcategory string `json:"subcategory"`
 	DateAdded   string `json:"dateAdded"`
+	Certification string `json:"certification"`
+	AnswerSupport string `json:"answerSupport"`
 	Answers     []Answer `json:"answers"`
 }
 
